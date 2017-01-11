@@ -6,7 +6,7 @@ var fs = Promise.promisifyAll(require('fs'));
 var parse = Promise.promisify(require('xml2js').parseString);
 var path = require('path');
 
-fs.readFileAsync(path.join(__dirname, 'NUTS_2016L.xml'), { encoding: 'utf8' })
+fs.readFileAsync(path.join(__dirname, 'NUTS_2013L.xml'), { encoding: 'utf8' })
     .then((xml) => {
         return parse(xml);
     })

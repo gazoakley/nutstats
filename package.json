@@ -1,6 +1,6 @@
 {
   "name": "nutstats",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Nomenclature of Territorial Units for Statistics",
   "main": "index.js",
   "author": "Gareth Oakley <gaz+npm@gazoakley.com>",
